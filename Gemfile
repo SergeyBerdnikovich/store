@@ -5,7 +5,7 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,4 +38,6 @@ gem 'jquery-rails'
 gem 'spree', '1.3.2'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
-gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git' 
+gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
+gem "spree_social_products", :git => "git://github.com/spree/spree_social_products.git"
+#gem 'spree_social_products', :git => 'https://github.com/Johann-dotgee/spree_social_products.git'
