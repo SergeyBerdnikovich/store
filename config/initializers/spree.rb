@@ -14,6 +14,7 @@ Spree.config do |config|
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
   config.facebook_app_id = "418160698275904"
+  config.set(admin_interface_logo: "")
 end
 
 Spree.user_class = "Spree::User"
