@@ -41,3 +41,4 @@ gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-s
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git'
 gem "spree_social_products", :git => "git://github.com/spree/spree_social_products.git"
 #gem 'spree_social_products', :git => 'https://github.com/Johann-dotgee/spree_social_products.git'
+gem "koala"

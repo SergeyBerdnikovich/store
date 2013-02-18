@@ -6,6 +6,10 @@ Store::Application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/'
+
+  match "signin" => "oauth#start"
+  match "callback" => "oauth#callback", as: :oauth_callback
+  match "failure" => "oauth#failure"
           # The priority is based upon order of creation:
   # first created -> highest priority.
 
